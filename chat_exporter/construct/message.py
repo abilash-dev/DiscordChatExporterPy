@@ -175,10 +175,8 @@ class MessageConstruct:
         is_app = _gather_user_bot(message.author)
         user_colour = await self._gather_user_colour(message.author)
 
-        def get_interaction_status(interaction_message: discord.Message) -> Union[discord.MessageInteraction, discord.MessageInteractionMetadata, None]:
-            if hasattr(interaction_message, 'interaction_metadata'):
-                return interaction_message.interaction_metadata
-            return interaction_message.interaction
+        def get_interaction_status(interaction_message: discord.Message) -> Optional[Union[dict, None]]:
+            return getattr(interaction_message, 'interaction', None)
 
         interaction_status = get_interaction_status(message)
 
