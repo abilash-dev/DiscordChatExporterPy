@@ -29,7 +29,7 @@ View a [Live Demo](https://example.com 'Example Transcript') of an Exported Chat
 This Package is NOT Available on PyPI, but You Can Install it via GitHub:
 
 ```bash
-pip install git+https://github.com/1337Syntax/DiscordChatExporterPy
+pip install git+https://github.com/abilash-dev/DiscordChatExporterPy
 ```
 
 <br />
