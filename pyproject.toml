@@ -8,7 +8,7 @@ description = "A simple Discord chat exporter for Python Discord bots."
 version = "2.9.0"
 readme = "README.md"
 authors = [
-    { name="mahtoid", email="info@mahto.id" }
+    { name="abilash", email="contact@abilash.link" }
 ]
 requires-python = ">=3.6"
 license = { text = "GPL-3.0-only" }
@@ -33,6 +33,5 @@ dependencies = ["aiohttp", "pytz", "grapheme", "emoji"]
 keywords = ["chat exporter", "discord chat exporter", "discord", "discordpy", "disnake", "pycord", "nextcord"]
 
 [project.urls]
-Homepage = "https://github.com/mahtoid/DiscordChatExporterPy"
-Discord = "https://discord.mahto.id/"
-Donate = "https://ko-fi.com/mahtoid"
+Homepage = "https://github.com/abilash-dev/DiscordChatExporterPy"
+Discord = "https://abilash.link/discord"

@@ -135,7 +135,7 @@ class TranscriptDAO:
 
         sd = (
             '<div class="meta__support">'
-            '    <a href="https://ko-fi.com/mahtoid">DONATE</a>'
+            '    <a href="https://abilash.link/discord">DONATE</a>'
             '</div>'
         ) if self.support_dev else ""
 
@@ -190,5 +190,5 @@ class Transcript(TranscriptDAO):
         except Exception:
             self.html = "Whoops! Something went wrong..."
             traceback.print_exc()
-            print("Please send a screenshot of the above error to https://www.github.com/mahtoid/DiscordChatExporterPy")
+            print("Please send a screenshot of the above error to https://www.github.com/abilash-dev/DiscordChatExporterPy")
             return self

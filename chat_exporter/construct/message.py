@@ -298,7 +298,7 @@ class MessageConstruct:
                         sticker = await snapshot.stickers[0].fetch()
                         break
             sticker_image_url = (
-                f"https://cdn.jsdelivr.net/gh/mahtoid/DiscordUtils@master/stickers/{sticker.pack_id}/{sticker.id}.gif"
+                f"https://cdn.abilash.link/stickers/{sticker.pack_id}/{sticker.id}.gif"
             )
 
         self.message.content = await fill_out(self.guild, img_attachment, [

@@ -34,7 +34,7 @@ async def quick_export(
             fancy_times=True,
             before=None,
             after=None,
-            support_dev=True,
+            support_dev=False,
             bot=bot,
             attachment_handler=None
             ).export()
@@ -62,7 +62,7 @@ async def export(
     fancy_times: Optional[bool] = True,
     before: Optional[datetime.datetime] = None,
     after: Optional[datetime.datetime] = None,
-    support_dev: Optional[bool] = True,
+    support_dev: Optional[bool] = False,
     attachment_handler: Optional[AttachmentHandler] = None,
 ):
     """
@@ -108,7 +108,7 @@ async def raw_export(
     bot: Optional[discord.Client] = None,
     military_time: Optional[bool] = False,
     fancy_times: Optional[bool] = True,
-    support_dev: Optional[bool] = True,
+    support_dev: Optional[bool] = False,
     attachment_handler: Optional[AttachmentHandler] = None,
 ):
     """
